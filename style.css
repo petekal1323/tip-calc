@@ -1,7 +1,7 @@
 body{
-  background: #333 url('img/cutlery.jpg') center center no-repeat;
+  background: #333;
   background-size: cover;
-  color: #532827;
+  color: #333;
 }
 
 #container{
@@ -50,10 +50,9 @@ form input[type="text"]{
 }
 
 button {
-  background: #6c2726;
+  background: #00d46d;
   color: white;
   border: none;
-  border-bottom:  solid 4px #222;
   text-transform: uppercase;
   font-size: 18px;
   padding: 20px 30px;
@@ -61,8 +60,7 @@ button {
 }
 
 button:hover{
-  background: #4c2827;
-  border-bottom-color: #111;
+  background: #27dce0;
 }
 
 button:active{

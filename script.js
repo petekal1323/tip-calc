@@ -1,13 +1,14 @@
-
 function calculateTip(){
   var billAmount = document.getElementById('billAmount').value;
   var serviceQuality = document.getElementById('serviceQuality').value;
 
   //quick validation
-  if(billAmount === "" || serviceQuality === 0){
-    return document.getElementById('validateBill').innerHTML = "Enter a value";
-  } else {
-    document.getElementById('validateBill').style.display = "none";
+  if(billAmount === ""){
+    alert("Enter Your Bill");
+  }
+
+  if (serviceQuality === 0 || serviceQuality === "0") {
+    alert("Choose a Service Option");
   }
 
   //do some math
